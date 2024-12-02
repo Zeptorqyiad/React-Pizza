@@ -4,6 +4,10 @@
 
 @import "components/all";
 
+// * {
+// 	border: 1px solid red;
+// }
+
 body {
 	background-color: $background;
 	padding: 50px 0;
@@ -15,7 +19,6 @@ body {
 	background-color: #fff;
 	margin: 0 auto;
 	border-radius: 10px;
-	max-width: 1400px;
 }
 
 .content {

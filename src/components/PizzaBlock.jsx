@@ -4,7 +4,7 @@ import classNames from 'classnames'
 
 function PizzaBlock({
    name = '---',
-   imageUrl,
+   imageUrl = '',
    price = 0,
    types = [],
    sizes = [],
