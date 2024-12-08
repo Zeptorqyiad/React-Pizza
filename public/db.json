@@ -87,7 +87,7 @@
          "types": [0, 1],
          "sizes": [26, 30, 40],
          "price": 395,
-         "category": 5,
+         "category": 0,
          "rating": 10
       },
       {
@@ -97,7 +97,7 @@
          "types": [0, 1],
          "sizes": [26, 30, 40],
          "price": 285,
-         "category": 5,
+         "category": 3,
          "rating": 7
       }
    ]
