@@ -66,7 +66,11 @@ function Home() {
                     <PizzaBlock
                        onCLickAddPizza={handleAddPizzaToCart}
                        key={obj.id}
-                       isLoading={true}
+                       addedCount={
+                          cartItems[obj.id] === undefined
+                             ? undefined
+                             : cartItems[obj.id].length
+                       }
                        {...obj}
                     />
                  ))
