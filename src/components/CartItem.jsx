@@ -33,7 +33,7 @@ function CartItem({ name, type, size }) {
                   />
                </svg>
             </div>
-            <b>2</b>
+            <b>1</b>
             <div className="button button--outline button--circle cart__item-count-plus">
                <svg
                   width="10"
